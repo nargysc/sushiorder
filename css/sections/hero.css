@@ -33,7 +33,7 @@
   inset: 0;
   width: 100%;
 
-  background-color: var(--primary-color);
+  background-color: #8E9189;
   z-index: -1;
 }
 
@@ -135,7 +135,7 @@
   flex-wrap: wrap;
   gap: 20px;
 
-  background: var(--color-white)
+  background: #ddeac1;
 }
 
 .hero-content__customer {
