@@ -134,26 +134,29 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
-  background: #ddeac1;
+color: #EEEFEB;
+  background: rgb(73, 68, 73);
 }
 
 .hero-content__customer {
   flex: 1;
+
   gap: 10px;
 }
 
 .hero-content__customer h4 {
   font-size: 62px;
   font-weight: 400;
-  font-family: var(--playfair-display)
+  font-family: var(--playfair-display);
+  color: #EEEFEB;
+
 }
 
 .hero-content__customer p {
   font-size: 16px;
+  color: #EEEFEB;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
-  color: var(--secondary-color);
   opacity: 0.5;
 }
 
@@ -162,6 +165,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  color: #EEEFEB;
 
   padding-left: 20px;
   border-left: 1px solid rgba(2, 2, 2, 0.1);
@@ -170,6 +174,8 @@
 
 .hero-content__review img {
   width: 42px;
+    color: #EEEFEB;
+
   height: 42px;
   object-fit: contain;
 }
@@ -177,8 +183,9 @@
 .hero-content__review p {
   font-size: 12px;
   font-weight: 400;
+    color: #EEEFEB;
+
   line-height: 32px;
   font-family: var(--plus-jakarta-sans);
-  color: var(--secondary-color);
   opacity: 0.8
 }
